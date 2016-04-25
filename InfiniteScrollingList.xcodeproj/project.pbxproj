@@ -11,6 +11,9 @@
 		59DCAE161CCE096400380A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCAE151CCE096400380A42 /* AppDelegate.m */; };
 		59DCAE181CCE096400380A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DCAE171CCE096400380A42 /* Assets.xcassets */; };
 		59DCAE1B1CCE096400380A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DCAE191CCE096400380A42 /* LaunchScreen.storyboard */; };
+		59DCAE251CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCAE241CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.m */; };
+		59DCAE281CCE199700380A42 /* DTCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCAE271CCE199700380A42 /* DTCTableViewController.m */; };
+		59DCAE2B1CCE27DF00380A42 /* UITableViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DCAE2A1CCE27DF00380A42 /* UITableViewController+Navigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,12 @@
 		59DCAE171CCE096400380A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DCAE1A1CCE096400380A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DCAE1C1CCE096400380A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DCAE231CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+InfiniteScrolling.h"; sourceTree = "<group>"; };
+		59DCAE241CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+InfiniteScrolling.m"; sourceTree = "<group>"; };
+		59DCAE261CCE199700380A42 /* DTCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTCTableViewController.h; path = ../DTCTableViewController.h; sourceTree = "<group>"; };
+		59DCAE271CCE199700380A42 /* DTCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DTCTableViewController.m; path = ../DTCTableViewController.m; sourceTree = "<group>"; };
+		59DCAE291CCE27DF00380A42 /* UITableViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+Navigation.h"; sourceTree = "<group>"; };
+		59DCAE2A1CCE27DF00380A42 /* UITableViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+Navigation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +46,7 @@
 		59DCAE051CCE096400380A42 = {
 			isa = PBXGroup;
 			children = (
+				59DCAE221CCE0E1100380A42 /* Categories */,
 				59DCAE101CCE096400380A42 /* InfiniteScrollingList */,
 				59DCAE0F1CCE096400380A42 /* Products */,
 			);
@@ -53,6 +63,8 @@
 		59DCAE101CCE096400380A42 /* InfiniteScrollingList */ = {
 			isa = PBXGroup;
 			children = (
+				59DCAE261CCE199700380A42 /* DTCTableViewController.h */,
+				59DCAE271CCE199700380A42 /* DTCTableViewController.m */,
 				59DCAE141CCE096400380A42 /* AppDelegate.h */,
 				59DCAE151CCE096400380A42 /* AppDelegate.m */,
 				59DCAE171CCE096400380A42 /* Assets.xcassets */,
@@ -69,6 +81,17 @@
 				59DCAE121CCE096400380A42 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59DCAE221CCE0E1100380A42 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				59DCAE231CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.h */,
+				59DCAE241CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.m */,
+				59DCAE291CCE27DF00380A42 /* UITableViewController+Navigation.h */,
+				59DCAE2A1CCE27DF00380A42 /* UITableViewController+Navigation.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +163,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DCAE251CCE0E8900380A42 /* UITableViewController+InfiniteScrolling.m in Sources */,
+				59DCAE2B1CCE27DF00380A42 /* UITableViewController+Navigation.m in Sources */,
+				59DCAE281CCE199700380A42 /* DTCTableViewController.m in Sources */,
 				59DCAE161CCE096400380A42 /* AppDelegate.m in Sources */,
 				59DCAE131CCE096400380A42 /* main.m in Sources */,
 			);
